@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Translator</title>
+    <style>
+        #output {
+            border: 2px solid blueviolet;
+            height: 10vh;
+        }
+    </style>
 </head>
 <body>
     <h1>Talk Something</h1>
     <button id="btn-translate">Translate</button>
     <textarea id="txt-area" placeholder="Type something here"></textarea>
+    <div>Output will be shown here</div>
+    <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
